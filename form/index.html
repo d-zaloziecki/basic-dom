@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div id="form">
+        <form>
+            <div class="input">
+                Name:
+                <br/>
+                <input type="text" id="name" />
+            </div>
+            <div class="input">
+                Desired Salary:
+                <br/>
+                <input type="number" id="salary"/>
+            </div>
+            <div class="input">
+                birthday:
+                <br/>
+                <input type="date" id="birthday"/>
+            </div>
+            <div class="input"> 
+                Phone:
+                <br/>
+                <input type="tel" id="phone" />
+            </div>
+            <div id="error"></div>
+            <button type="button" onclick="validation()" id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
